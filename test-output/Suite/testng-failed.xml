@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Displaying Sports Activities(failed)">
+    <classes>
+      <class name="com.bookmyshow.Pages.Sports">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sports"/>
+        </methods>
+      </class> <!-- com.bookmyshow.Pages.Sports -->
+    </classes>
+  </test> <!-- Displaying Sports Activities(failed) -->
+  <test thread-count="5" name="Displaying Movie List(failed)">
+    <classes>
+      <class name="com.bookmyshow.Pages.MoviesList">
+        <methods>
+          <include name="tearDown"/>
+          <include name="moviesList"/>
+        </methods>
+      </class> <!-- com.bookmyshow.Pages.MoviesList -->
+    </classes>
+  </test> <!-- Displaying Movie List(failed) -->
+  <test thread-count="5" name="Checking SignIn with Google(failed)">
+    <classes>
+      <class name="com.bookmyshow.Pages.SignIn">
+        <methods>
+          <include name="signin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bookmyshow.Pages.SignIn -->
+    </classes>
+  </test> <!-- Checking SignIn with Google(failed) -->
+</suite> <!-- Failed suite [Suite] -->

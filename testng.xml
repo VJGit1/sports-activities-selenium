@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Displaying Sports Activities">
+    <classes>
+      <class name="com.bookmyshow.Pages.Sports"/>
+    </classes>
+  </test>
+  <test name="Displaying Movie List">
+    <classes>
+    	<class name="com.bookmyshow.Pages.MoviesList"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Checking SignIn with Google">
+    <classes>
+    	<class name="com.bookmyshow.Pages.SignIn"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

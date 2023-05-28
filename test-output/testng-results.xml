@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-10T13:06:55 IST" name="Suite" finished-at="2023-04-10T13:09:51 IST" duration-ms="176359">
+    <groups>
+    </groups>
+    <test started-at="2023-04-10T13:06:55 IST" name="Displaying Sports Activities" finished-at="2023-04-10T13:08:08 IST" duration-ms="73775">
+      <class name="com.bookmyshow.Pages.Sports">
+        <test-method signature="sports()[pri:0, instance:com.bookmyshow.Pages.Sports@2e222612]" started-at="2023-04-10T13:06:55 IST" name="sports" finished-at="2023-04-10T13:08:07 IST" duration-ms="72282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sports -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bookmyshow.Pages.Sports@2e222612]" started-at="2023-04-10T13:08:07 IST" name="tearDown" finished-at="2023-04-10T13:08:08 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bookmyshow.Pages.Sports -->
+    </test> <!-- Displaying Sports Activities -->
+    <test started-at="2023-04-10T13:08:09 IST" name="Displaying Movie List" finished-at="2023-04-10T13:08:56 IST" duration-ms="46861">
+      <class name="com.bookmyshow.Pages.MoviesList">
+        <test-method signature="moviesList()[pri:0, instance:com.bookmyshow.Pages.MoviesList@759d26fb]" started-at="2023-04-10T13:08:09 IST" name="moviesList" finished-at="2023-04-10T13:08:52 IST" duration-ms="43359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moviesList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bookmyshow.Pages.MoviesList@759d26fb]" started-at="2023-04-10T13:08:52 IST" name="tearDown" finished-at="2023-04-10T13:08:56 IST" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bookmyshow.Pages.MoviesList -->
+    </test> <!-- Displaying Movie List -->
+    <test started-at="2023-04-10T13:08:56 IST" name="Checking SignIn with Google" finished-at="2023-04-10T13:09:51 IST" duration-ms="55119">
+      <class name="com.bookmyshow.Pages.SignIn">
+        <test-method signature="signin()[pri:0, instance:com.bookmyshow.Pages.SignIn@4d5b6aac]" started-at="2023-04-10T13:08:56 IST" name="signin" finished-at="2023-04-10T13:09:42 IST" duration-ms="46622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bookmyshow.Pages.SignIn@4d5b6aac]" started-at="2023-04-10T13:09:42 IST" name="tearDown" finished-at="2023-04-10T13:09:51 IST" duration-ms="8489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bookmyshow.Pages.SignIn -->
+    </test> <!-- Checking SignIn with Google -->
+  </suite> <!-- Suite -->
+</testng-results>
